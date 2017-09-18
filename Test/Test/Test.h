@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Test : LiYongChao
-
+@interface Test : NSObject
+@property (nonatomic,strong)NSArray *testArr;
 @end
