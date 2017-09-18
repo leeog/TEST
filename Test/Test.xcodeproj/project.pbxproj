@@ -15,6 +15,7 @@
 		1855A0BA1F6F680D002E69B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1855A0B81F6F680D002E69B9 /* LaunchScreen.storyboard */; };
 		1855A0C51F6F680D002E69B9 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1855A0C41F6F680D002E69B9 /* TestTests.m */; };
 		1855A0D01F6F680D002E69B9 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1855A0CF1F6F680D002E69B9 /* TestUITests.m */; };
+		1861F8481F6F73CE00F9C7A6 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 1861F8471F6F73CE00F9C7A6 /* Test.m */; };
 		2CC0E8E5430D28123B73D6F6 /* libPods-TestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4A45179EC313D36C61C372 /* libPods-TestTests.a */; };
 		AB7C6B45B493A08950CF9386 /* libPods-TestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA131B1A16639F62BC43B48 /* libPods-TestUITests.a */; };
 		B5E1B520A71EDDD0AA680D26 /* libPods-Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A93FC6ECF93C09263AE1DA03 /* libPods-Test.a */; };
@@ -54,6 +55,8 @@
 		1855A0CB1F6F680D002E69B9 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1855A0CF1F6F680D002E69B9 /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		1855A0D11F6F680D002E69B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1861F8461F6F73CE00F9C7A6 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		1861F8471F6F73CE00F9C7A6 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		1E4FD7F8B141CBDBABFE823A /* Pods-TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestTests/Pods-TestTests.release.xcconfig"; sourceTree = "<group>"; };
 		2073A1248C8D489EF477947A /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test/Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
 		639B283C3F32065AA2AA05F4 /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Test/Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +125,8 @@
 				1855A0AE1F6F680D002E69B9 /* AppDelegate.m */,
 				1855A0B01F6F680D002E69B9 /* ViewController.h */,
 				1855A0B11F6F680D002E69B9 /* ViewController.m */,
+				1861F8461F6F73CE00F9C7A6 /* Test.h */,
+				1861F8471F6F73CE00F9C7A6 /* Test.m */,
 				1855A0B31F6F680D002E69B9 /* Main.storyboard */,
 				1855A0B61F6F680D002E69B9 /* Assets.xcassets */,
 				1855A0B81F6F680D002E69B9 /* LaunchScreen.storyboard */,
@@ -461,6 +466,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1855A0B21F6F680D002E69B9 /* ViewController.m in Sources */,
+				1861F8481F6F73CE00F9C7A6 /* Test.m in Sources */,
 				1855A0AF1F6F680D002E69B9 /* AppDelegate.m in Sources */,
 				1855A0AC1F6F680D002E69B9 /* main.m in Sources */,
 			);
@@ -700,6 +706,7 @@
 				1855A0D61F6F680D002E69B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1855A0D71F6F680D002E69B9 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -708,6 +715,7 @@
 				1855A0D91F6F680D002E69B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1855A0DA1F6F680D002E69B9 /* Build configuration list for PBXNativeTarget "TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -716,6 +724,7 @@
 				1855A0DC1F6F680D002E69B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
