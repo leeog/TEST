@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "Test.h"
 @interface ViewController ()
 
 @end
@@ -17,8 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor grayColor];
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = self.view.frame;
+    [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
 }
-
+-(void)click{
+    Test *test = [[Test alloc]init];
+    [self.navigationController pushViewController:test animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

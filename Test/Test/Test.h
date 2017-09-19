@@ -6,6 +6,6 @@
 //  Copyright © 2017年 LiYongChao. All rights reserved.
 //
 #import <UIKit/UIKit.h>
-@interface Test : NSObject
+@interface Test : UIViewController
 @property (nonatomic,strong)NSArray *testArr;
 @end
